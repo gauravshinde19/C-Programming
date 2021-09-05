@@ -1,0 +1,12 @@
+/* Program to print Z to A */
+#include<stdio.h>
+int main()
+{
+    char a = 'Z';
+    a = 'Z';
+    while(a >= 'A')
+    {
+        printf("%c\n",a);
+        a--;
+    }
+}
