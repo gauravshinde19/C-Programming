@@ -1,0 +1,12 @@
+/* Program to print 10 to 1 */
+#include<stdio.h>
+int main()
+{
+    int a = 10;
+    a = 10;
+    while(a >= 1)
+    {
+        printf("%d\n",a);
+        a--;
+    }
+}
