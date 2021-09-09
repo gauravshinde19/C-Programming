@@ -1,0 +1,15 @@
+/* Accept total marks and obtain marks from user and calculate percentage */
+#include<stdio.h>
+int main()
+{
+    float tm = 0.0;
+    float om = 0.0;
+    float per = 0.0;
+    printf("Enter total marks :\n");
+    scanf("%f",&tm);
+    printf("Enter obtain marks :\n");
+    scanf("%f",&om);
+    per = om * 100 / tm;
+    printf("Percentage :\n%.2f",per);
+    return 0;
+}
